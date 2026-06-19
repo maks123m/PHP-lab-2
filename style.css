@@ -99,3 +99,51 @@ tr:nth-child(even) {
     display: inline-block;
     font-size: 14px;
 }
+
+.sort-container {
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.sort-label {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+.sort-btn {
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.debt-high {
+    background: #609fe6;
+    color: white;
+}
+
+.debt-low {
+    background: #692cb3;
+    color: white;
+}
+
+.reset {
+    background: #999;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
